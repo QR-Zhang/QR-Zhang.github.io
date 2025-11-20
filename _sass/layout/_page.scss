@@ -6,7 +6,7 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 3em;
+  padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
@@ -45,7 +45,7 @@
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
 }
 
 .page__content {
