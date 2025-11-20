@@ -138,7 +138,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 1500px
+max_width: 900px
 
 # SEO Related
 google_site_verification :
