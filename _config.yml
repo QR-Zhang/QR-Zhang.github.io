@@ -12,7 +12,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "QR Zhang"
 title_separator          : "-"
 name                     : &name "Qingrui Zhang"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "personal description"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://qr-zhang.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Qingrui Zhang"
   pronouns         : # example: "she/her"  
-  bio              : "Associate Professor"
+  bio              : "Associate Professor in Control"
   location         : "Shenzhen, China"
   employer         : "Sun Yat-sen Universty"
   uri              : https://saa.sysu.edu.cn/teacher/427 # URL
@@ -219,6 +219,12 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  people:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -253,6 +259,24 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _People
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _Projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _teaching
   - scope:
       path: ""
