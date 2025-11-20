@@ -11,9 +11,11 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Projects"
+    url: /Projects/
+
   - title: "People"
     url: /People/
-
 
   # - title: "Talks"
   #   url: /talks/    
@@ -29,7 +31,8 @@ main:
     
   - title: "CV"
     url: /cv/
-    
+
+  
   # - title: "CV"
   #   url: /cv-json/
     
