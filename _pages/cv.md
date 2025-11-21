@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,30 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+## Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Aerospace Science and Engineering, University of Toronto, Canada, 2019
+* B.S. in Control Science and Engineering, Harbin Institute of Technology, China, 2013
 
-Work experience
+## Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Sun Yat-sen Universty, associate professor, 2023 -- present 
+* Sun Yat-sen Universty, assistant  professor, 2020 -- 2023
+* Delft University of Technology, post-doc researcher, 2019 -- 2020 
   
-Skills
+## Research field
 ======
 * Skill 1
 * Skill 2
