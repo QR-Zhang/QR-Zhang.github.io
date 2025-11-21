@@ -14,6 +14,7 @@ Research Highlights
 ======
 To-be-added
 
+<!--
 Education Background
 ======
 To-be-added
@@ -21,3 +22,4 @@ To-be-added
 Profesional Experience
 ======
 To-be-added
+-->
